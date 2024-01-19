@@ -15,6 +15,7 @@
 		C0AAEF612B2879610071BB58 /* WarmUpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AAEF602B2879610071BB58 /* WarmUpUITests.swift */; };
 		C0AAEF632B2879610071BB58 /* WarmUpUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AAEF622B2879610071BB58 /* WarmUpUITestsLaunchTests.swift */; };
 		C0C169A32B57939C00F0F701 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C169A22B57939C00F0F701 /* Onboarding.swift */; };
+		C0C169A52B5A043800F0F701 /* ListLoop.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C169A42B5A043700F0F701 /* ListLoop.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		C0AAEF602B2879610071BB58 /* WarmUpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarmUpUITests.swift; sourceTree = "<group>"; };
 		C0AAEF622B2879610071BB58 /* WarmUpUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarmUpUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C0C169A22B57939C00F0F701 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		C0C169A42B5A043700F0F701 /* ListLoop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListLoop.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				C0AAEF492B2879610071BB58 /* Assets.xcassets */,
 				C0AAEF4B2B2879610071BB58 /* Preview Content */,
 				C0C169A22B57939C00F0F701 /* Onboarding.swift */,
+				C0C169A42B5A043700F0F701 /* ListLoop.swift */,
 			);
 			path = WarmUp;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 				C0C169A32B57939C00F0F701 /* Onboarding.swift in Sources */,
 				C0AAEF482B2879600071BB58 /* ContentView.swift in Sources */,
 				C0AAEF462B2879600071BB58 /* WarmUpApp.swift in Sources */,
+				C0C169A52B5A043800F0F701 /* ListLoop.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

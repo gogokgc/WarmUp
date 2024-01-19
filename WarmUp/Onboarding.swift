@@ -9,7 +9,7 @@ import SwiftUI
 
 struct Onboarding: View {
     var body: some View {
-        
+    
         VStack(content: {
             Text("What's New in Photos")
                 .font(.largeTitle)
