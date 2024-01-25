@@ -5,6 +5,9 @@
 //  Created by KYUCHEOL KIM on 1/19/24.
 //
 
+//State 는 화면이 새로 그려져야하는 부분에 필요, Binding 은 State 변수에 $ 를 붙여서 사용
+//붙잡고 있는 State 상태를 연결해줄떄 사용
+
 import SwiftUI
 
 struct Fruit: Hashable {
@@ -17,7 +20,7 @@ struct ListLoop: View {
     
     var listvars = ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
     
-    var favFruits = [
+    @State var favFruits = [
         Fruit(name: "Apple",
               matchF: "Banana",
               price: 1000),
@@ -32,29 +35,37 @@ struct ListLoop: View {
         
     ]
     
+    @State var insertedName: String = ""
+    
     var body: some View {
         NavigationStack {
-            List {
-//                Text("1")
-//                Text("2")
-//                Text("3")
-//                Text("4")
-//                Text("5")
-//                Text("6")
-//                Text("7")
-//                Text("8")
-//                Text("9")
-//                Text("10")
-//                Text("11")
-                ForEach(favFruits, id: \.self) { fruit in
-                    VStack(alignment: .leading) {
-                        Text("name : \(fruit.name)")
-                        Text("matchF : \(fruit.matchF)")
-                        Text("price : \(fruit.price)")
+            
+            VStack{
+                HStack{
+                    TextField("Insert Name", text: $insertedName)
+                    
+                    Button {
+                        favFruits.append(Fruit(name: insertedName, matchF: "none", price: 5000))
+                    } label: {
+                        Text("insert")
+                            .padding()
                     }
+
                 }
+                List {
+                    ForEach(favFruits, id: \.self) { fruit in
+                        VStack(alignment: .leading) {
+                            Text("name : \(fruit.name)")
+                            Text("matchF : \(fruit.matchF)")
+                            Text("price : \(fruit.price)")
+                        }
+                    }.onDelete(perform: { indexSet in
+                        favFruits.remove(atOffsets: indexSet)
+                    })
+                }
+                .navigationTitle("ListView")
             }
-            .navigationTitle("ListView")
+           
         }
         
     }
