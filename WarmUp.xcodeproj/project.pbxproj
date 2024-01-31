@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C03B02542B69FF500016F6A6 /* Modal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03B02532B69FF500016F6A6 /* Modal.swift */; };
+		C03B02562B6A00BE0016F6A6 /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03B02552B6A00BE0016F6A6 /* Detail.swift */; };
 		C0AAEF462B2879600071BB58 /* WarmUpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AAEF452B2879600071BB58 /* WarmUpApp.swift */; };
 		C0AAEF482B2879600071BB58 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AAEF472B2879600071BB58 /* ContentView.swift */; };
 		C0AAEF4A2B2879610071BB58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0AAEF492B2879610071BB58 /* Assets.xcassets */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C03B02532B69FF500016F6A6 /* Modal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modal.swift; sourceTree = "<group>"; };
+		C03B02552B6A00BE0016F6A6 /* Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
 		C0AAEF422B2879600071BB58 /* WarmUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WarmUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0AAEF452B2879600071BB58 /* WarmUpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarmUpApp.swift; sourceTree = "<group>"; };
 		C0AAEF472B2879600071BB58 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -107,6 +111,8 @@
 				C0C169A22B57939C00F0F701 /* Onboarding.swift */,
 				C0C169A42B5A043700F0F701 /* ListLoop.swift */,
 				C0C104A42B62298500D10093 /* Setting.swift */,
+				C03B02532B69FF500016F6A6 /* Modal.swift */,
+				C03B02552B6A00BE0016F6A6 /* Detail.swift */,
 			);
 			path = WarmUp;
 			sourceTree = "<group>";
@@ -267,6 +273,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0C104A52B62298500D10093 /* Setting.swift in Sources */,
+				C03B02562B6A00BE0016F6A6 /* Detail.swift in Sources */,
+				C03B02542B69FF500016F6A6 /* Modal.swift in Sources */,
 				C0C169A32B57939C00F0F701 /* Onboarding.swift in Sources */,
 				C0AAEF482B2879600071BB58 /* ContentView.swift in Sources */,
 				C0AAEF462B2879600071BB58 /* WarmUpApp.swift in Sources */,
