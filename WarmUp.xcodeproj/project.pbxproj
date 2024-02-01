@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C01BB43A2B6B7C8500542E7B /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01BB4392B6B7C8500542E7B /* Navigation.swift */; };
+		C01BB43C2B6B8DCA00542E7B /* MyTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01BB43B2B6B8DCA00542E7B /* MyTab.swift */; };
 		C03B02542B69FF500016F6A6 /* Modal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03B02532B69FF500016F6A6 /* Modal.swift */; };
 		C03B02562B6A00BE0016F6A6 /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03B02552B6A00BE0016F6A6 /* Detail.swift */; };
 		C0AAEF462B2879600071BB58 /* WarmUpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AAEF452B2879600071BB58 /* WarmUpApp.swift */; };
@@ -41,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		C01BB4392B6B7C8500542E7B /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
+		C01BB43B2B6B8DCA00542E7B /* MyTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTab.swift; sourceTree = "<group>"; };
 		C03B02532B69FF500016F6A6 /* Modal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modal.swift; sourceTree = "<group>"; };
 		C03B02552B6A00BE0016F6A6 /* Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
 		C0AAEF422B2879600071BB58 /* WarmUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WarmUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,6 +118,7 @@
 				C03B02532B69FF500016F6A6 /* Modal.swift */,
 				C03B02552B6A00BE0016F6A6 /* Detail.swift */,
 				C01BB4392B6B7C8500542E7B /* Navigation.swift */,
+				C01BB43B2B6B8DCA00542E7B /* MyTab.swift */,
 			);
 			path = WarmUp;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 				C0C169A32B57939C00F0F701 /* Onboarding.swift in Sources */,
 				C0AAEF482B2879600071BB58 /* ContentView.swift in Sources */,
 				C0AAEF462B2879600071BB58 /* WarmUpApp.swift in Sources */,
+				C01BB43C2B6B8DCA00542E7B /* MyTab.swift in Sources */,
 				C0C169A52B5A043800F0F701 /* ListLoop.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
