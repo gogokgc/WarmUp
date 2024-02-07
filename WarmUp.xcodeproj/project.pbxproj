@@ -12,6 +12,7 @@
 		C03944602B6C792F00B4C21E /* TabDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C039445F2B6C792F00B4C21E /* TabDetail.swift */; };
 		C03B02542B69FF500016F6A6 /* Modal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03B02532B69FF500016F6A6 /* Modal.swift */; };
 		C03B02562B6A00BE0016F6A6 /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03B02552B6A00BE0016F6A6 /* Detail.swift */; };
+		C0A1509C2B73163B00D4CD53 /* MyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A1509B2B73163B00D4CD53 /* MyApp.swift */; };
 		C0AAEF462B2879600071BB58 /* WarmUpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AAEF452B2879600071BB58 /* WarmUpApp.swift */; };
 		C0AAEF482B2879600071BB58 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AAEF472B2879600071BB58 /* ContentView.swift */; };
 		C0AAEF4A2B2879610071BB58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0AAEF492B2879610071BB58 /* Assets.xcassets */; };
@@ -47,6 +48,7 @@
 		C039445F2B6C792F00B4C21E /* TabDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabDetail.swift; sourceTree = "<group>"; };
 		C03B02532B69FF500016F6A6 /* Modal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modal.swift; sourceTree = "<group>"; };
 		C03B02552B6A00BE0016F6A6 /* Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
+		C0A1509B2B73163B00D4CD53 /* MyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyApp.swift; sourceTree = "<group>"; };
 		C0AAEF422B2879600071BB58 /* WarmUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WarmUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0AAEF452B2879600071BB58 /* WarmUpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarmUpApp.swift; sourceTree = "<group>"; };
 		C0AAEF472B2879600071BB58 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 				C01BB4392B6B7C8500542E7B /* Navigation.swift */,
 				C01BB43B2B6B8DCA00542E7B /* MyTab.swift */,
 				C039445F2B6C792F00B4C21E /* TabDetail.swift */,
+				C0A1509B2B73163B00D4CD53 /* MyApp.swift */,
 			);
 			path = WarmUp;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0A1509C2B73163B00D4CD53 /* MyApp.swift in Sources */,
 				C0C104A52B62298500D10093 /* Setting.swift in Sources */,
 				C03B02562B6A00BE0016F6A6 /* Detail.swift in Sources */,
 				C03B02542B69FF500016F6A6 /* Modal.swift in Sources */,
