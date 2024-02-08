@@ -13,18 +13,7 @@ struct MyApp: View {
     
     var body: some View {
         TabView {
-            NavigationStack {
-                List{
-                    NavigationLink {
-                        Text("navLink1")
-                    } label: {
-                        Text("1")
-                    }
-                    Text("2")
-                    Text("3")
-                }
-                .navigationTitle("List")
-            }
+            FirstList()
                 .tabItem {
                     Label("first", systemImage: "gear")
                 }
@@ -47,15 +36,9 @@ struct MyApp: View {
         }
         .sheet(isPresented: $showModal, content: {
             TabView {
-                ZStack(content: {
-                    Color.blue.ignoresSafeArea()
-                    Text("onBoardind 1")
-                })
-                
-                ZStack(content: {
-                    Color.green.ignoresSafeArea()
-                    Text("onBoardind 2")
-                })
+                OnboardinSample(mainText: "onboarding 1", backGroundColor: .gray)
+               
+                OnboardinSample(mainText: "onboarding 2", backGroundColor: .green)
                 
                 ZStack(content: {
                     Color.gray.ignoresSafeArea()
